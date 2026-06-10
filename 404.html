@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <script>
-    (function(){
-      var path = location.pathname;
-      var base = '/' + path.split('/')[1] + '/';
-      sessionStorage.setItem('gh-pages-redirect', path + location.search + location.hash);
-      location.replace(base);
-    })();
-  </script>
-</head>
-<body><a href="/">Go to home</a></body>
-</html>
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<script>(function(){var p=location.pathname;var b='/'+p.split('/')[1]+'/';sessionStorage.setItem('gh-pages-redirect',p+location.search+location.hash);location.replace(b);})();</script>
+</head><body><a href="/">Home</a></body></html>
